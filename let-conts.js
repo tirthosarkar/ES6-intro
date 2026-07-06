@@ -1,7 +1,7 @@
 const name = 'Bangladesh';
 // name = 'Singapore';
-const countryname = 'BD-' + name;
-console.log(countryname);
+const countryName = 'BD-' + name;
+console.log(countryName);
 
 let price = 120;
 price = 150;
@@ -11,7 +11,8 @@ console.log(price);
 
 const drees = ['Shirt', 'Pant', 'Shoe'];
 drees.push('belt');
-console.log(drees);
+console.log(drees); 
+
 
 
 const student = {
