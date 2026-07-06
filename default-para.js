@@ -17,3 +17,18 @@ function fullName(first, last = 'Hossain') {
     console.log(name);
 }
 fullName('Sabbir');
+
+function multiply(num1, num2 = 1) {
+    const result = num1 * num2;
+    console.log(result);
+}
+multiply(10, 5);
+
+/**
+ * string -->
+ * number --> 0 [for add]
+ * number --> 1 [for multiply]
+ * array --> []
+ * object --> {}
+ * boolean --> false
+ */
