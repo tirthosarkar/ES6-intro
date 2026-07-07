@@ -8,7 +8,7 @@ console.log(giveMe);
 function getCardHTML(name, description, price) {
   const div = `
   <div class="card">
-    <h2>${name}</h2>
+    <h2>${name.toUpperCase()}</h2>
     <p>price:$ ${price}</p>
     <p>${description}</p>
   </div>
