@@ -17,4 +17,6 @@ const { name , price: phonePrice, camera = '8MP'} = { name: "iPhone", price: 120
 // console.log(name, phonePrice, camera);
 
 const [first, second, third] = [1, 2, 3, 4, 5];
-console.log(first, second, third);
+// console.log(first, second, third);
+
+const 
