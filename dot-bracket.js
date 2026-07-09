@@ -12,3 +12,8 @@ console.log(employee["name"]); // Output: John Doe
 console.log(employee["position"]); // Output: Software Engineer
 console.log(employee["1"]); // Output: desk one
 console.log(employee["home address"]); // Output: 123 Main St
+
+const salary = 50000;
+employee["salary"] = salary;
+console.log(employee["salary"]); // Output: 50000
+
