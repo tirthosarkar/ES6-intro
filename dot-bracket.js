@@ -13,7 +13,12 @@ console.log(employee["position"]); // Output: Software Engineer
 console.log(employee["1"]); // Output: desk one
 console.log(employee["home address"]); // Output: 123 Main St
 
-const salary = 50000;
-employee["salary"] = salary;
-console.log(employee["salary"]); // Output: 50000
+const money = 50000;
+const key = "position";
+employee["salary"] = money;
+employee[key] = "Senior Software Engineer";
+console.log(employee["key"]); // Output: 50000
+
+
+
 
