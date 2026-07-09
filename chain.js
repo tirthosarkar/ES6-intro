@@ -14,5 +14,6 @@ const employee = {
   position: "Software Engineer"
 };
 
-console.log = employee.name; // Output: John Doe
+console.log(employee.name); // Output: John Doe
 console.log(employee.family.children.name); // Output: jane doe
+console.log(employee.family?.children?.age); // Output: 10
